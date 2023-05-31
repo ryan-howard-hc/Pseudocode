@@ -29,19 +29,22 @@ Eventually, any houseplant will grow. Just like people purchasing larger garment
 <br>
     4. (Optional) If the species in question is a climber, purchase a moss pole or a piece of wood with twine or a rough rope. Also make sure your pot has enough depth to keep the support stable.
 <br> 
-        -VARIABLE for optional climbing species: mossPole
+        -VARIABLE for optional climbing species: mossPole, climbingPlant
 <br>
     5. FOR EXECUTION
 <br>
         -VARIABLES: loosenSoil, packSoil, waterSoil
-
+<br>
 
 ### Operations
     1. REMOVE plant from current vessel
     2. REPOTTING plant into new vessel
+<br>
 
 ## FUNCTIONS:
-- REMOVE
+<br>
+
+### REMOVE
     1. FUNCTION findSpace
         IF area < 5x5ft 
         THEN clearSpace() = "Clear yo room jabroni"
@@ -52,7 +55,12 @@ Eventually, any houseplant will grow. Just like people purchasing larger garment
     3. FUNCTION removePlant
         IF plant === plantStuck
         THEN wedgeItem() = "Loosen plant from current vessel"
-- REPOTTING
+    4. FUNCTION mossPole
+        IF plant === climbingPlant
+        THEN add mossPole
+<br>
+
+### REPOTTING
     4. FUNCTION obtainVessel
         IF vessel != 10-25%% larger
         THEN 
@@ -64,4 +72,18 @@ Eventually, any houseplant will grow. Just like people purchasing larger garment
     6. FUNCTION packSoil
         - Add some soil at the bottom
         - Place plant in center and try to level plant approximately half an inch below top of the pot
-        - 
+        - While holding in place, add soil around edges to fill gaps, DONT pack down too hard. DO gently pack down
+    7. FUNCTION waterSoil
+        -Water to help settle plant into place, more importantly to make sure roots are in contact with fresh soil.
+<br>
+
+## START
+    findSpace
+    acquireSoil
+    removePlant
+    mossPole
+    obtainVessel
+    loosenSoil
+    packSoil
+    waterSoil
+## END
