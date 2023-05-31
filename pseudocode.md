@@ -7,7 +7,7 @@ Eventually, any houseplant will grow. Just like people purchasing larger garment
 
 ### MATERIALS/VARIABLES
 
-    1. A vessel about 10-25% larger than the previous vessel
+1. A vessel about 10-25% larger than the previous vessel
         - Properties for container: let vessel = {
             potWidth 
 <br>
@@ -16,7 +16,8 @@ Eventually, any houseplant will grow. Just like people purchasing larger garment
         };
         obtainVessel
 <br>
-    2. Appropriate soil for the species being repotted. Err on the side of caution if you do not know the proper soil, and obtain well-draining mix. (Root rot is our number one enemy for the majority of houseplants!!!)
+
+2. Appropriate soil for the species being repotted. Err on the side of caution if you do not know the proper soil, and obtain well-draining mix. (Root rot is our number one enemy for the majority of houseplants!!!)
 <br>
         -VARIABLES for the soil medium: let soil = { 
             acquireSoil
@@ -25,23 +26,26 @@ Eventually, any houseplant will grow. Just like people purchasing larger garment
         };
         soilPorosity, soilAmount
 <br>
-    3. A chopstick or butter knife to loosen around the edges if the plant is wedged in there, as well as a space to repot
+
+3. A chopstick or butter knife to loosen around the edges if the plant is wedged in there, as well as a space to repot
 <br>
         -VARIABLES required for execution of function: wedgeItem, plantStuck, removePlant, findSpace, clearSpace
 <br>
-    4. (Optional) If the species in question is a climber, purchase a moss pole or a piece of wood with twine or a rough rope. Also make sure your pot has enough depth to keep the support stable.
+
+4. (Optional) If the species in question is a climber, purchase a moss pole or a piece of wood with twine or a rough rope. Also make sure your pot has enough depth to keep the support stable.
 <br> 
         -VARIABLE for optional climbing species: mossPole, climbingPlant
 <br>
-    5. FOR EXECUTION
+
+5. FOR EXECUTION
 <br>
         -VARIABLES: loosenSoil, packSoil, waterSoil
 <br>
 
 ### Operations
 
-    1. REMOVE plant from current vessel
-    2. REPOTTING plant into new vessel
+1. REMOVE plant from current vessel
+2. REPOTTING plant into new vessel
 
 ## FUNCTIONS:
 <br>
