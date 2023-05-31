@@ -6,11 +6,13 @@ Eventually, any houseplant will grow. Just like people purchasing larger garment
 <br>
 
 ### MATERIALS/VARIABLES
+
     1. A vessel about 10-25% larger than the previous vessel
-<br>
         - Properties for container: let vessel = {
-            potWidth
+            potWidth 
+<br>
             potDepth
+<br>
         };
         obtainVessel
 <br>
@@ -37,9 +39,9 @@ Eventually, any houseplant will grow. Just like people purchasing larger garment
 <br>
 
 ### Operations
+
     1. REMOVE plant from current vessel
     2. REPOTTING plant into new vessel
-<br>
 
 ## FUNCTIONS:
 <br>
