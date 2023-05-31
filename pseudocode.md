@@ -68,13 +68,13 @@ Eventually, any houseplant will grow. Just like people purchasing larger garment
         ELSE
             IGNORE
     5. FUNCTION loosenSoil 
-        - Loosen soil and roots at base of plant following removal from previous pot.
+        - "Loosen soil and roots at base of plant following removal from previous pot."
     6. FUNCTION packSoil
-        - Add some soil at the bottom
-        - Place plant in center and try to level plant approximately half an inch below top of the pot
-        - While holding in place, add soil around edges to fill gaps, DONT pack down too hard. DO gently pack down
+        - "Add some soil at the bottom"
+        - "Place plant in center and try to level plant approximately half an inch below top of the pot"
+        - "While holding in place, add soil around edges to fill gaps, DONT pack down too hard. DO gently pack down"
     7. FUNCTION waterSoil
-        -Water to help settle plant into place, more importantly to make sure roots are in contact with fresh soil.
+        - "Water to help settle plant into place, more importantly to make sure roots are in contact with fresh soil."
 <br>
 
 ## START
